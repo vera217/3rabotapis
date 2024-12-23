@@ -11,7 +11,7 @@ namespace TestProject1
     {
         [Fact]
         public void ParseProduct_InvalidQuantity()
-        {
+        { //h
             string input = "Поступление товаров: 2023.01.05; 'яблоки';";
 
             Assert.Throws<FormatException>(() => Handler.ParseProduct(input));
